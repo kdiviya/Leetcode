@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Contains_Duplicate/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem2/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem3/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem4/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem5/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem6/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem7/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem8/pom.xml" />
+        <option value="$PROJECT_DIR$/Problem9/pom.xml" />
+        <option value="$PROJECT_DIR$/containsDuplicate/pom.xml" />
+        <option value="$PROJECT_DIR$/validAnagram/pom.xml" />
+        <option value="$PROJECT_DIR$/groupAnagram/pom.xml" />
+        <option value="$PROJECT_DIR$/longestConsecutiveSequence/pom.xml" />
+        <option value="$PROJECT_DIR$/productOfArrayExceptSelf/pom.xml" />
+        <option value="$PROJECT_DIR$/topKFrequentElements/pom.xml" />
+        <option value="$PROJECT_DIR$/twoSum/pom.xml" />
+        <option value="$PROJECT_DIR$/validSudoku/pom.xml" />
+        <option value="$PROJECT_DIR$/validPalindrome/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/validPalindrome/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
