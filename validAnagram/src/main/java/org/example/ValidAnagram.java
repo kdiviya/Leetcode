@@ -6,6 +6,7 @@ import java.util.Arrays;
 Anagrams means length and character should be same
 Input: s = "anagram", t = "nagaram"
 Output: true
+LeetCode -> https://leetcode.com/problems/valid-anagram/description/
 Solution Link -> https://neetcode.io/solutions/valid-anagram */
 
 public class ValidAnagram {

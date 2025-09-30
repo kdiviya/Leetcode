@@ -22,7 +22,7 @@ Input: board =
 ,[".",".",".","4","1","9",".",".","5"]
 ,[".",".",".",".","8",".",".","7","9"]]
 Output: true
-
+Leetcode -> https://leetcode.com/problems/valid-sudoku/description/
 Solution Link -> https://neetcode.io/solutions/valid-sudoku */
 
 public class ValidSudoku {
