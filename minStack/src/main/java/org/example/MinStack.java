@@ -28,7 +28,60 @@ minStack.top();    // return 0
 minStack.getMin(); // return -2
 Leetcode -> https://leetcode.com/problems/min-stack/description/
 Solution Link -> https://neetcode.io/solutions/min-stack */
+
+import java.util.Stack;
+
 public class MinStack {
+    long min;
+    Stack<Long> stack;
+
+    //initailize the stack variable
+    public MinStack() {
+         stack =  new Stack<>();
+    }
+
+    public void push(int val) {
+        if(stack.isEmpty()) {
+            stack.push(0L); //if the stack is empty, push 0 onto the stack because min and value are same
+            min = val;
+        }
+        else {
+            stack.push(val - min); //find the difference
+            if(val < min) min = val;  // if the value is lesser than min, set the val to minimum.
+        }
+    }
+
+    public void pop() {
+        if (stack.isEmpty()) return;
+        long pop = stack.pop();
+        if(pop < 0) { // set the min value if the popped element is negative.
+            min = min - pop;
+        }
+    }
+
+    public int top() {
+        long top = stack.peek();
+        if (top > 0) {
+            return (int) (top + min); //return the real value not the difference
+        }
+        else {
+            return (int) min;
+        }
+    }
+
+    public int getMin() {
+        return (int) min;
+    }
+
     public static void main(String[] args) {
+        MinStack obj = new MinStack();
+        obj.push(-2);
+        obj.push(0);
+        obj.push(-3);
+        System.out.println("Minimum value: " + obj.getMin());
+        obj.pop();
+        System.out.println("Top value: " + obj.top());
+        System.out.println("Minimum value: " + obj.getMin());
+
     }
 }
